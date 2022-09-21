@@ -101,7 +101,6 @@ nav {
     font-size: 1rem;
     font-weight: 800;
 }
-
 .section-heading .section-heading-lower {
     display: block;
     font-size: 3rem;
@@ -162,6 +161,7 @@ p {
     background-color: rgba(47, 23, 15, 0.9);
 }
 
+
 @media (min-width: 992px) {
 .product-item .product-item-title {
     position: relative;
@@ -189,4 +189,3 @@ p {
     max-width: 50vw;
     }
 }
-
