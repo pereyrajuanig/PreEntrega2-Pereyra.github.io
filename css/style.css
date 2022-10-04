@@ -12,7 +12,7 @@
 
 body {
     margin: 0;
-    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(images/bg.png); 	
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(../images/bg.png); 	
     background-attachment: fixed;
     background-position: center;
     background-size: center;
@@ -176,9 +176,6 @@ p {
     z-index: 0;
     max-width: 50vw;
     }
-}
-.section-heading {
-    text-transform: uppercase;
 }
 
 @media (min-width: 992px) {
