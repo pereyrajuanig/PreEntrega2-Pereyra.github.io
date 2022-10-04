@@ -1,17 +1,20 @@
 .page-section {
     margin-top: 5rem;
     margin-bottom: 5rem;
-}
 
-.container {
-    width: 100%;
-    padding-right: 0.75rem;
-    padding-left: 0.75rem;
-    margin-right: auto;
-    margin-left: auto;
-}
-.intro {
-    position: relative;
+    .container {
+        width: 100%;
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+        margin-right: auto;
+        margin-left: auto;
+
+        .intro {
+            position: relative;
+        }
+    }
+
+
 }
 
 @media (min-width: 992px) {
@@ -37,21 +40,21 @@
 
 .bg-faded {
     background-color: #f6e1c5;
-}
 
-.section-heading {
-    text-transform: uppercase;
-}
-
-.section-heading .section-heading-upper {
-    display: block;
-    font-size: 1rem;
-    font-weight: 800;
-}
-.section-heading .section-heading-lower {
-    display: block;
-    font-size: 3rem;
-    font-weight: 100;
+    .section-heading {
+        text-transform: uppercase;
+    
+        & .section-heading-upper {
+            display: block;
+            font-size: 1rem;
+            font-weight: 800;
+        }
+        & .section-heading-lower {
+            display: block;
+            font-size: 3rem;
+            font-weight: 100;
+        }
+    }
 }
 
 p {
@@ -75,6 +78,15 @@ p {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: rgba(230, 167, 86, 0.9);
+
+    & .cta-inner {
+        position: relative;
+        padding: 3rem;
+        margin: 0.5rem;
+        outline: 5px solid #e6ad64;
+        outline-offset: 6px;;
+    }
+
 }
 
 @media (min-width: 1400px) {
@@ -83,13 +95,7 @@ p {
     }
 }
 
-.cta .cta-inner {
-    position: relative;
-    padding: 3rem;
-    margin: 0.5rem;
-    outline: 5px solid #e6ad64;
-    outline-offset: 6px;;
-}
+
 
 // Products 
 
