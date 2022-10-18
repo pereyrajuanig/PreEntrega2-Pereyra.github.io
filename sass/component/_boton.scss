@@ -1,3 +1,11 @@
+a {
+    transition: .4s !important;
+
+    &:hover {
+        transform: scale(1.03) !important;
+    }
+}
+
 .btn-xl {
     font-weight: 700 !important;
     font-size: 0.8rem !important;

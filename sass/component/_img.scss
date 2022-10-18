@@ -1,0 +1,8 @@
+img {
+    transition: .4s;
+    --animate-duration: 1.5s; 
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}

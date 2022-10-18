@@ -35,7 +35,11 @@ header {
     color: #e6a756; }
 
 nav {
-  background-color: rgba(47, 23, 15, 0.9); }
+  background-color: rgba(47, 23, 15, 0.9);
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0; }
 
 .page-section {
   margin-top: 5rem;
@@ -52,7 +56,9 @@ nav {
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;
-    float: right; } }
+    float: right; }
+  .intro-img:hover {
+    transform: scale(1.03); } }
 
 @media (min-width: 1200px) {
   .intro .intro-text {
@@ -104,6 +110,12 @@ p {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px; } }
 
+img {
+  transition: .4s;
+  --animate-duration: 1.5s; }
+  img:hover {
+    transform: scale(1.03); }
+
 @media (min-width: 992px) {
   .about-heading .about-heading-img {
     position: relative;
@@ -112,6 +124,11 @@ p {
     margin-top: -5rem;
     position: relative;
     z-index: 1; } }
+
+a {
+  transition: .4s !important; }
+  a:hover {
+    transform: scale(1.03) !important; }
 
 .btn-xl {
   font-weight: 700 !important;

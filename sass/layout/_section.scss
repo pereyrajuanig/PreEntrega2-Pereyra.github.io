@@ -22,6 +22,11 @@
     width: 75%;
     float: right;
     }
+    
+    &.intro-img:hover {
+        transform: scale(1.03);
+    }
+
 }
 
 @media (min-width: 1200px) {
